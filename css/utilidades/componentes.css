@@ -1,3 +1,12 @@
+.container{
+  box-sizing: border-box; /*Para somar os paddings e não ultrapassar a largura máxima*/
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto; /*Quando eu tenho um max-width sempre colocar as margens auto para centralizar o conteúdo*/
+  margin-right: auto;
+}
+
 .botao{
   display: inline-block;
   padding: 16px 32px;

@@ -76,4 +76,7 @@
   .tecnologia-vantagens{
     flex-direction: column;
   }
+  .tecnologia-conteudo a{
+    margin-bottom: 20px;
+  }
 }

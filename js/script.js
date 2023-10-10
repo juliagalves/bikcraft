@@ -52,7 +52,7 @@ function trocarImagem(event){
   const img = event.currentTarget; //pega a imagem que ta sendo clicada
   const media = matchMedia("(min-width:1000px)").matches; //se tiver no mínimo 1000px vai dar true
   if(media){ //se for verdadeiro
-    galeriaContainer.preprend(img); //preprend remove o elemento e adicionar onde queremos, nesse caso adicionamos a imagem clicada no container
+    galeriaContainer.prepend(img); //prepend remove o elemento e adicionar onde queremos, nesse caso adicionamos a imagem clicada no container
   }
 }
 
